@@ -6,7 +6,7 @@ Prerequisites:
 
 How to use:
   1. Add the ip addresses of your servers to the hosts file found in this repo to deploy on desired hosts
-  2. Run playbook by executing ansible-paybook -v -i hosts main.yml
+  2. Run playbook by executing ansible-playbook -v -i hosts main.yml
 
 
 This playbook contains a sample index.php file that gets pushed to /var/www/html/ for all designated hosts in the hosts file.
