@@ -35,7 +35,6 @@
      copy:
        src: /home/ansible/lampstack-ansible-playbook/index.php
        dest: /var/www/html/index.php
-       remote_dest: yes
   
    - name: Restart service httpd, after copying index.php 
      service:
